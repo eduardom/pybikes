@@ -9,7 +9,7 @@ from . import utils, exceptions
 
 __all__ = ['Cyclopolis', 'CyclopolisStation']
 
-LAT_LNG_RGX = r'latLng:\[(.*?)\]'
+LNG_LAT_RGX = r'latLng:\[(.*?)\]'
 DATA_RGX = r'data\:.*?<span.*?>(.*?)</span>'
 
 # In some systems, e.g., maroussi, nafplio, stations come as:
@@ -46,12 +46,12 @@ class Cyclopolis(BikeShareSystem):
         
         html = scraper.request(self.feed_url)
         data = zip(
-            re.findall(LAT_LNG_RGX, html, re.DOTALL),
+            re.findall(LNG_LAT_RGX, html, re.DOTALL),
             re.findall(DATA_RGX, html, re.DOTALL)
         )
-        for lat_lng, info in data:
-            raw_lat_lng = lat_lng.split(',')
-            latitude, longitude = float(raw_lat_lng[0]), float(raw_lat_lng[1])
+        for lng_lat, info in data:
+            raw_lng_lat = lng_lat.split(',')
+            longitude, latitude = float(raw_lng_lat[0]), float(raw_lng_lat[1])
             fields = info.replace('<b>','').replace('</b>','').split('<br/>')
             extra = {}
             if len(fields) == 4: # there is not slots information available
