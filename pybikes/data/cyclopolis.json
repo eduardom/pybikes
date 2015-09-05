@@ -16,11 +16,7 @@
             "meta": {
                 "latitude": 37.5639397319,
                 "longitude": 22.8093402872,
-<<<<<<< HEAD
                 "city": "Nafplio",
-=======
-                "city": "Maroussi",
->>>>>>> cyclopolis
                 "name": "Cyclopolis Nafplio",
                 "country": "GR"
             },
@@ -31,11 +27,7 @@
             "meta": {
                 "latitude": 38.2511101325,
                 "longitude": 22.0821570196,
-<<<<<<< HEAD
                 "city": "Aigialeia",
-=======
-                "city": "Maroussi",
->>>>>>> cyclopolis
                 "name": "Cyclopolis Aigialeia",
                 "country": "GR"
             },
