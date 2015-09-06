@@ -54,8 +54,8 @@ class ChangzhouStation(BikeShareStation):
         super(ChangzhouStation, self).__init__()
 
         self.name      = name
-        self.longitude = latitude
-        self.latitude  = longitude
+        self.latitude  = latitude
+        self.longitude = longitude
         self.bikes     = bikes
         self.free      = free
         self.extra     = extra
