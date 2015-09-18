@@ -3,6 +3,7 @@
 # Distributed under the AGPL license, see LICENSE.txt
 
 import json
+import re
 
 from .base import BikeShareSystem, BikeShareStation
 from . import utils, exceptions
@@ -27,8 +28,21 @@ class Changzhou(BikeShareSystem):
             scraper = utils.PyBikesScraper()
         
         html = scraper.request(self.feed_url)
+        # There is one station in one of the cities in which the
+        # address has a double quote mark in the middle of the string.
+        # This makes the JSON invalid, SHIT!
+        # {
+        #     "id": 75,
+        #     "name": "益华百货",
+        #     "lat": 22.510574,
+        #     "lng": 113.385837,
+        #     "capacity": 20,
+        #     "availBike": 0,       |-------| => These damn things here!
+        #     "address": "中山市银通街"中银大厦"公交站南侧"
+        # }
+        html = re.sub(r'("address"\s*\:\s*".*?").*?(\})', r'\1\2', html)
         data = json.loads(html.replace('var ibike = ',''))
-
+        # print data
         stations = []
 
         for station in data['station']:
