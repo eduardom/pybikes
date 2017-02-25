@@ -654,7 +654,7 @@
                 "latitude": 51.382,
                 "city": "Bath",
                 "longitude": -2.36275,
-                "country": "GB"
+                "country": "GB-ENG"
             },
             "city_uid": "236"
         },
@@ -665,7 +665,7 @@
                 "latitude": 55.8589,
                 "city": "Glasgow",
                 "longitude": -4.25549,
-                "country": "GB"
+                "country": "GB-SCT"
             },
             "city_uid": "237"
         },
@@ -677,7 +677,7 @@
                 "city": "Belfast",
                 "name": "BelfastBikes",
                 "longitude": -5.92918,
-                "country": "GB"
+                "country": "GB-NIR"
             },
             "city_uid": "238"
         },
@@ -699,7 +699,7 @@
                 "latitude": 56.1165,
                 "city": "Stirling",
                 "longitude": -3.9369,
-                "country": "GB"
+                "country": "GB-SCT"
             },
             "city_uid": "243"
         },
