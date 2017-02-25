@@ -3,9 +3,9 @@
         {
             "tag": "santander-cycles",
             "meta": {
-                "city": "London",
-                "name": "Santander Cycles",
-                "country": "GB",
+                "city": "London", 
+                "name": "Santander Cycles", 
+                "country": "GB-ENG", 
                 "company": [
                     "PBSC",
                     "Serco Group plc"

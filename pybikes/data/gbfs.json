@@ -61,6 +61,7 @@
             "feed_url": "https://tor.publicbikesystem.net/ube/gbfs/v1/"
         },
         {
+
             "tag": "sobi-hamilton",
             "meta": {
                 "latitude": 43.25643601915583,
@@ -300,21 +301,6 @@
                 ]
             },
             "feed_url": "https://gbfs.citibikenyc.com/gbfs/gbfs.json"
-        },
-        {
-            "tag": "coast-bike-share",
-            "meta": {
-                "latitude": 27.9627193250593,
-                "longitude": -82.438056400783,
-                "city": "Tampa, FL",
-                "name": "Coast Bike Share",
-                "country": "US",
-                "company": [
-                    "CycleHop, LLC",
-                    "Social Bicycles Inc."
-                ]
-            },
-            "feed_url": "https://coast.socialbicycles.com/opendata/gbfs.json"
         },
         {
             "tag": "cogo",

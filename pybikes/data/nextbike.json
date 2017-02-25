@@ -805,7 +805,7 @@
             "city_uid": 236,
             "meta": {
                 "city": "Bath",
-                "country": "GB",
+                "country": "GB-ENG",
                 "latitude": 51.3793,
                 "longitude": -2.35279
             }
@@ -816,7 +816,7 @@
             "city_uid": 237,
             "meta": {
                 "city": "Glasgow",
-                "country": "GB",
+                "country": "GB-SCT",
                 "latitude": 55.8589,
                 "longitude": -4.25549
             }
@@ -828,7 +828,7 @@
             "meta": {
                 "name": "BelfastBikes",
                 "city": "Belfast",
-                "country": "GB",
+                "country": "GB-NIR",
                 "latitude": 54.5969,
                 "longitude": -5.92918
             }
@@ -839,7 +839,7 @@
             "city_uid": 243,
             "meta": {
                 "city": "Stirling",
-                "country": "GB",
+                "country": "GB-SCT",
                 "latitude": 56.1165,
                 "longitude": -3.9369
             }
@@ -1017,7 +1017,7 @@
             "city_uid": 272,
             "meta": {
                 "city": "Warwick",
-                "country": "GB",
+                "country": "GB-ENG",
                 "latitude": 52.3815,
                 "longitude": -1.56159
             }
@@ -1276,7 +1276,7 @@
             "meta": {
                 "name": "Santander Cycles MK",
                 "city": "Milton Keynes",
-                "country": "GB",
+                "country": "GB-ENG",
                 "latitude": 52.0406,
                 "longitude": -0.759417
             }
@@ -1477,7 +1477,7 @@
             "meta": {
                 "name": "Co-bikes",
                 "city": "Exeter",
-                "country": "GB",
+                "country": "GB-ENG",
                 "latitude": 50.7272,
                 "longitude": -3.53605
             }
