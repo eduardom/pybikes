@@ -785,17 +785,6 @@
             "city_uid": "258"
         },
         {
-            "domain": "nz",
-            "tag": "nextbike-cambridge",
-            "meta": {
-                "latitude": -37.8914,
-                "city": "Cambridge",
-                "longitude": 175.472,
-                "country": "NZ"
-            },
-            "city_uid": "261"
-        },
-        {
             "domain": "sa",
             "tag": "ibike-saudi-arabia-king-abdullah-economic-city",
             "meta": {
@@ -914,29 +903,6 @@
             "city_uid": "288"
         },
         {
-            "domain": "gs",
-            "tag": "nextbike-gospic",
-            "meta": {
-                "latitude": 44.5469,
-                "city": "Gospić",
-                "longitude": 15.375,
-                "country": "HR"
-            },
-            "city_uid": "291"
-        },
-        {
-            "domain": "rg",
-            "tag": "rower-gminny-poland-juchnowiec-koscielny",
-            "meta": {
-                "latitude": 53.0928,
-                "city": "Juchnowiec Kościelny",
-                "name": "ROWER GMINNY",
-                "longitude": 23.1204,
-                "country": "PL"
-            },
-            "city_uid": "300"
-        },
-        {
             "domain": "kc",
             "tag": "nextbike-karlovac",
             "meta": {
@@ -960,17 +926,6 @@
             "city_uid": "306"
         },
         {
-            "domain": "de",
-            "tag": "nextbike-offenbach-am-main",
-            "meta": {
-                "latitude": 50.1093,
-                "city": "Offenbach am Main",
-                "longitude": 8.73825,
-                "country": "DE"
-            },
-            "city_uid": "32"
-        },
-        {
             "domain": "nz",
             "tag": "nextbike-auckland",
             "meta": {
@@ -980,17 +935,6 @@
                 "country": "NZ"
             },
             "city_uid": "34"
-        },
-        {
-            "domain": "de",
-            "tag": "nextbike-magdeburg",
-            "meta": {
-                "latitude": 52.1268,
-                "city": "Magdeburg",
-                "longitude": 11.6342,
-                "country": "DE"
-            },
-            "city_uid": "42"
         },
         {
             "domain": "de",
@@ -1109,18 +1053,6 @@
             "city_uid": 148
         },
         {
-            "domain": "bb",
-            "tag": "bemowo-bike",
-            "meta": {
-                "name": "Bemowo Bike",
-                "latitude": 52.2606,
-                "longitude": 20.929,
-                "country": "PL",
-                "city": "Warszawa"
-            },
-            "city_uid": 197
-        },
-        {
             "domain": "pb",
             "tag": "poznanski-rower-miejski",
             "meta": {
@@ -1157,18 +1089,6 @@
             "city_uid": 210
         },
         {
-            "domain": "kp",
-            "tag": "kmk-bike",
-            "meta": {
-                "name": "KMK Bike",
-                "latitude": 50.0395,
-                "longitude": 19.9374,
-                "country": "PL",
-                "city": "Kraków"
-            },
-            "city_uid": 232
-        },
-        {
             "domain": "bp",
             "tag": "biker-bialystok",
             "meta": {
@@ -1179,18 +1099,6 @@
                 "city": "Białystok"
             },
             "city_uid": 245
-        },
-        {
-            "domain": "op",
-            "tag": "konstancinski-rower-miejski",
-            "meta": {
-                "name": "Rower Miejski",
-                "latitude": 52.0879,
-                "longitude": 21.1075,
-                "country": "PL",
-                "city": "Konstancin"
-            },
-            "city_uid": 247
         },
         {
             "domain": "kw",
