@@ -1,0 +1,73 @@
+{
+    "instances": [
+        {
+            "tag": "coast-bikeshare",
+            "meta": {
+                "latitude": 27.9627193250593,
+                "longitude": -82.438056400783,
+                "city": "St. Petersburg & Tampa, FL",
+                "name": "Coast Bike Share",
+                "country": "US"
+            },
+            "network_id": 11
+        },
+        {
+            "tag": "wavelo",
+            "meta": {
+                "latitude": 50.063130414885435,
+                "longitude": 19.933555126190186,
+                "city": "Krakow",
+                "name": "Wavelo",
+                "country": "PL"
+            },
+            "network_id": 105
+        },
+        {
+            "tag": "uhbikes",
+            "meta": {
+                "latitude": 41.50419038891593,
+                "longitude": -81.69010877609253,
+                "city": "Cleveland, OH",
+                "name": "UHBikes",
+                "country": "US"
+            },
+            "network_id": 93
+        },
+        {
+            "tag": "wehopedals",
+            "meta": {
+                "latitude": 34.090200844241785,
+                "longitude": -118.37038993835449,
+                "city": "West Hollywood, CA",
+                "name": "Weho Pedals",
+                "country": "US"
+            },
+            "network_id": 89
+        },
+        {
+            "tag": "breeze",
+            "meta": {
+                "latitude": 34.01780925008178,
+                "longitude": -118.4965717792511,
+                "city": "Santa Monica, CA",
+                "name": "Breeze Bike Share",
+                "country": "US"
+            },
+            "network_id": 42
+        },
+        {
+            "tag": "mountain-rides",
+            "meta": {
+                "latitude": 43.5194695168239,
+                "longitude": -114.317415758737,
+                "city": "Ketchum, ID",
+                "name": "Mountain Rides Bike Share",
+                "country": "US"
+            },
+            "network_id": 6
+        }
+
+    ],
+    "system": "socialbicycles",
+    "class": "Socialbicycles"
+}
