@@ -1264,7 +1264,7 @@
             "city_uid": 318,
             "meta": {
                 "city": "London",
-                "country": "GB",
+                "country": "GB-ENG",
                 "latitude": 51.4862,
                 "longitude": -0.11966
             }
@@ -2176,7 +2176,7 @@
             "meta": {
                 "name": "Dundee-Navigogo",
                 "city": "Dundee",
-                "country": "GB",
+                "country": "GB-SCT",
                 "latitude": 56.4623,
                 "longitude": -2.97071
             }
@@ -2350,7 +2350,7 @@
             "city_uid": 476,
             "meta": {
                 "city": "Cardiff",
-                "country": "GB",
+                "country": "GB-ENG",
                 "latitude": 51.4848,
                 "longitude": -3.19062
             }
@@ -2408,7 +2408,7 @@
             "city_uid": 485,
             "meta": {
                 "city": "Surrey",
-                "country": "GB",
+                "country": "GB-ENG",
                 "latitude": 51.2422,
                 "longitude": -0.590594
             }
@@ -2420,7 +2420,7 @@
             "meta": {
                 "name": "Santander Cycles",
                 "city": "Swansea",
-                "country": "GB",
+                "country": "GB-ENG",
                 "latitude": 51.6106,
                 "longitude": -3.9764
             }
